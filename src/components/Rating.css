@@ -1,0 +1,13 @@
+.star-input {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+}
+
+.star-container {
+    display: flex;
+    flex-direction: row;
+}
+

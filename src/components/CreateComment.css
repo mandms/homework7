@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Oxygen&display=swap');
+
+.comment-form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 393px;
+    padding: 0 10px;
+}
+
+.comment-form__textarea {
+    padding: 11px 15px;
+    resize: none;
+    background: #FFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+}
+
+.comment-form__title {
+    font-family: Inter, serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #404040;
+    letter-spacing: 0.39px;
+}
+
+.comment-form__mark {
+    font-family: Inter, serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #404040;
+    letter-spacing: 0.66px;
+}
+
+.comment-form__button {
+    align-self: end;
+    padding: 8px 40px 7px;
+    margin-top: 27px;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 0.21px;
+    background: #1E65B7;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+}
+
+.comment-form__rating-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    align-items: center;
+    margin: 44px 0 19px;
+}
